@@ -6,9 +6,14 @@ Xiang Li is a fourth-year PhD student in mathematics at UCLA, supervised by Itay
 
 ## Editing
 
-The homepage is in `index.html`. Edit the biography and research interests near the end of the file. Colors, spacing, and typography are defined in its `<style>` block. The site uses no JavaScript, third-party font requests, tracking, or build dependencies. Computer Modern Unicode Serif fonts are served locally from `fonts/`; their license and source information are included there.
+The homepage is in `index.html`. Edit the biography and research interests near the end of the file. Colors, spacing, and typography are defined in its `<style>` block. The site uses no JavaScript, third-party font requests, tracking, or build dependencies. Courier Prime fonts are served locally from `fonts/`; their license and source information are in `courier-prime-OFL.txt` and `courier-prime-PROVENANCE.md`.
 
 Update the year of study in both the visible biography and the description metadata when needed.
+
+The email address in the header is a high-resolution transparent image at
+`assets/contact.png`. Keep it as an image rather than adding a plain-text address
+or a `mailto:` link. Its alternative text spells out “at” and “dot” for screen
+readers. The office appears beside it as ordinary text.
 
 ## Deployment
 

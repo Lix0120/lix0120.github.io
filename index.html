@@ -10,20 +10,20 @@
   <meta property="og:description" content="PhD student at UCLA. Forcing, large cardinals, and partition relations.">
   <meta property="og:url" content="https://lix0120.github.io/">
   <link rel="canonical" href="https://lix0120.github.io/">
-  <link rel="preload" href="./fonts/cmu-serif-regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231535ed'/%3E%3Ctext x='32' y='44' fill='white' text-anchor='middle' font-family='Times New Roman,serif' font-size='38' font-weight='bold'%3EXL%3C/text%3E%3C/svg%3E">
+  <link rel="preload" href="./fonts/CourierPrime-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231535ed'/%3E%3Ctext x='32' y='44' fill='white' text-anchor='middle' font-family='Courier New,monospace' font-size='38' font-weight='bold'%3EXL%3C/text%3E%3C/svg%3E">
   <title>Xiang Li | Mathematics at UCLA</title>
   <style>
     @font-face {
-      font-family: "CMU Serif";
-      src: url("./fonts/cmu-serif-regular.woff2") format("woff2");
+      font-family: "Courier Prime";
+      src: url("./fonts/CourierPrime-Regular.ttf") format("truetype");
       font-style: normal;
       font-weight: 400;
       font-display: swap;
     }
     @font-face {
-      font-family: "CMU Serif";
-      src: url("./fonts/cmu-serif-bold.woff2") format("woff2");
+      font-family: "Courier Prime";
+      src: url("./fonts/CourierPrime-Bold.ttf") format("truetype");
       font-style: normal;
       font-weight: 700;
       font-display: swap;
@@ -39,7 +39,7 @@
       margin: 0;
       background: var(--paper);
       color: var(--ink);
-      font-family: "CMU Serif", "Times New Roman", Times, serif;
+      font-family: "Courier Prime", "Courier New", Courier, monospace;
       font-size: 1rem;
       line-height: 1.65;
     }
@@ -48,13 +48,37 @@
       width: min(38rem, calc(100% - 3rem));
       margin: 5rem auto;
     }
-    h1 {
-      margin: 0 0 1.8rem;
-      padding: 0 0 0.8rem;
+    .page-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+      margin-bottom: 1.8rem;
+      padding-bottom: 0.8rem;
       border-bottom: 1px solid var(--ink);
+    }
+    h1 {
+      margin: 0;
       font-size: 1.5rem;
       line-height: 1.25;
       font-weight: 700;
+    }
+    .contact {
+      display: grid;
+      grid-template-columns: max-content minmax(0, 1fr);
+      max-width: 100%;
+      gap: 0.15rem 0.5rem;
+      margin: 0;
+      font-size: 0.875rem;
+      font-style: normal;
+      line-height: 1.5;
+    }
+    .email-image {
+      display: block;
+      width: 12.785714em;
+      max-width: 100%;
+      height: auto;
     }
     p { margin: 0 0 1.7rem; }
     h2 {
@@ -89,16 +113,29 @@
     @media print {
       :root { color-scheme: light; --paper: #fff; --ink: #000; --link: #000; }
       main { width: 100%; margin: 0; }
+      .email-image { filter: invert(1); }
     }
   </style>
 </head>
 <body>
   <main id="about">
-    <h1>Xiang Li</h1>
+    <header class="page-header">
+      <h1>Xiang Li</h1>
+      <address class="contact">
+        <span>Email:</span>
+        <img class="email-image" src="./assets/contact.png" width="179" height="21"
+          alt="xiangli at math dot ucla dot edu">
+        <span>Office:</span>
+        <span>MS 3969</span>
+      </address>
+    </header>
     <!-- Update the year of study here as needed. -->
     <p>I am a fourth-year PhD student in mathematics at
       <a href="https://ww3.math.ucla.edu/">UCLA</a>, supervised by
       <a href="https://www.math.ucla.edu/~ineeman/">Itay Neeman</a>.</p>
+
+    <p>Before joining UCLA, I earned a MASt in Pure Mathematics from the
+      University of Cambridge.</p>
 
     <section id="research" aria-labelledby="research-title">
       <h2 id="research-title">Research interests</h2>
