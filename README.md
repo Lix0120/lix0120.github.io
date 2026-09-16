@@ -6,7 +6,7 @@ Xiang Li is a fourth-year PhD student in mathematics at UCLA, supervised by Itay
 
 ## Editing
 
-The entire homepage is in `index.html`. Edit the biography and research interests near the end of the file. Colors, spacing, and typography are defined in its `<style>` block. The site uses no JavaScript, external fonts, tracking, or build dependencies.
+The homepage is in `index.html`. Edit the biography and research interests near the end of the file. Colors, spacing, and typography are defined in its `<style>` block. The site uses no JavaScript, third-party font requests, tracking, or build dependencies. Computer Modern Unicode Serif fonts are served locally from `fonts/`; their license and source information are included there.
 
 Update the year of study in both the visible biography and the description metadata when needed.
 

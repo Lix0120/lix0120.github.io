@@ -4,26 +4,41 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Xiang Li is a fourth-year PhD student in mathematics at UCLA, supervised by Itay Neeman. Research interests: forcing, large cardinals, and partition relations.">
-  <meta name="theme-color" content="#ffe35b">
+  <meta name="theme-color" content="#1535ed">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Xiang Li | Mathematics at UCLA">
   <meta property="og:description" content="PhD student at UCLA. Forcing, large cardinals, and partition relations.">
   <meta property="og:url" content="https://lix0120.github.io/">
   <link rel="canonical" href="https://lix0120.github.io/">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23ffe35b'/%3E%3Ctext x='32' y='44' fill='%23272087' text-anchor='middle' font-family='Times New Roman,serif' font-size='38' font-weight='bold'%3EXL%3C/text%3E%3C/svg%3E">
+  <link rel="preload" href="./fonts/cmu-serif-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231535ed'/%3E%3Ctext x='32' y='44' fill='white' text-anchor='middle' font-family='Times New Roman,serif' font-size='38' font-weight='bold'%3EXL%3C/text%3E%3C/svg%3E">
   <title>Xiang Li | Mathematics at UCLA</title>
   <style>
+    @font-face {
+      font-family: "CMU Serif";
+      src: url("./fonts/cmu-serif-regular.woff2") format("woff2");
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "CMU Serif";
+      src: url("./fonts/cmu-serif-bold.woff2") format("woff2");
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+    }
     :root {
-      color-scheme: light;
-      --paper: #ffe35b;
-      --ink: #272087;
+      color-scheme: dark;
+      --paper: #1535ed;
+      --ink: #ffffff;
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
       background: var(--paper);
       color: var(--ink);
-      font-family: "Times New Roman", Times, serif;
+      font-family: "CMU Serif", "Times New Roman", Times, serif;
       font-size: 1rem;
       line-height: 1.65;
     }
@@ -67,19 +82,11 @@
       outline: 2px solid var(--ink);
       outline-offset: 4px;
     }
-    footer {
-      margin-top: 2rem;
-      padding-top: 0.7rem;
-      border-top: 1px solid var(--ink);
-      font-family: "Courier New", Courier, monospace;
-      font-size: 0.875rem;
-    }
-    footer a { display: inline-block; padding: 0.3rem 0; }
     @media (max-width: 600px) {
       main { margin-top: 2.5rem; margin-bottom: 2.5rem; }
     }
     @media print {
-      :root { --paper: #fff; --ink: #000; }
+      :root { color-scheme: light; --paper: #fff; --ink: #000; }
       main { width: 100%; margin: 0; }
     }
   </style>
@@ -100,10 +107,6 @@
         <li>Partition relations</li>
       </ul>
     </section>
-
-    <footer>
-      <a href="https://github.com/Lix0120">GitHub</a>
-    </footer>
   </main>
 </body>
 </html>
