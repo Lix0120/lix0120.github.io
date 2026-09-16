@@ -6,7 +6,7 @@ Xiang Li is a fourth-year PhD student in mathematics at UCLA, supervised by Itay
 
 ## Editing
 
-The homepage is in `index.html`. Edit the biography and research interests near the end of the file. Colors, spacing, and typography are defined in its `<style>` block. The site uses no JavaScript, third-party font requests, tracking, or build dependencies. Courier Prime fonts are served locally from `fonts/`; their license and source information are in `courier-prime-OFL.txt` and `courier-prime-PROVENANCE.md`.
+The homepage is in `index.html`. Edit the biography and research interests near the end of the file. Colors, spacing, and typography are defined in its `<style>` block. The site uses no JavaScript, third-party font requests, tracking, or build dependencies. Text uses the system Courier New font, with Courier and monospace fallbacks. All headings use regular weight. The page is left-aligned and fills the available width; the horizontal rule follows the window width.
 
 Update the year of study in both the visible biography and the description metadata when needed.
 

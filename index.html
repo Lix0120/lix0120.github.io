@@ -10,24 +10,9 @@
   <meta property="og:description" content="PhD student at UCLA. Forcing, large cardinals, and partition relations.">
   <meta property="og:url" content="https://lix0120.github.io/">
   <link rel="canonical" href="https://lix0120.github.io/">
-  <link rel="preload" href="./fonts/CourierPrime-Regular.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231535ed'/%3E%3Ctext x='32' y='44' fill='white' text-anchor='middle' font-family='Courier New,monospace' font-size='38' font-weight='bold'%3EXL%3C/text%3E%3C/svg%3E">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231535ed'/%3E%3Ctext x='32' y='44' fill='white' text-anchor='middle' font-family='Courier New,monospace' font-size='38'%3EXL%3C/text%3E%3C/svg%3E">
   <title>Xiang Li | Mathematics at UCLA</title>
   <style>
-    @font-face {
-      font-family: "Courier Prime";
-      src: url("./fonts/CourierPrime-Regular.ttf") format("truetype");
-      font-style: normal;
-      font-weight: 400;
-      font-display: swap;
-    }
-    @font-face {
-      font-family: "Courier Prime";
-      src: url("./fonts/CourierPrime-Bold.ttf") format("truetype");
-      font-style: normal;
-      font-weight: 700;
-      font-display: swap;
-    }
     :root {
       color-scheme: dark;
       --paper: #1535ed;
@@ -39,21 +24,21 @@
       margin: 0;
       background: var(--paper);
       color: var(--ink);
-      font-family: "Courier Prime", "Courier New", Courier, monospace;
+      font-family: "Courier New", Courier, monospace;
       font-size: 1rem;
+      font-weight: 400;
       line-height: 1.65;
     }
     ::selection { background: var(--ink); color: var(--paper); }
     main {
-      width: min(38rem, calc(100% - 3rem));
-      margin: 5rem auto;
+      margin: 3rem 2rem;
     }
     .page-header {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-start;
       flex-wrap: wrap;
-      gap: 1rem 2rem;
+      gap: 1rem 4rem;
       margin-bottom: 1.8rem;
       padding-bottom: 0.8rem;
       border-bottom: 1px solid var(--ink);
@@ -62,7 +47,7 @@
       margin: 0;
       font-size: 1.5rem;
       line-height: 1.25;
-      font-weight: 700;
+      font-weight: 400;
     }
     .contact {
       display: grid;
@@ -84,6 +69,7 @@
     h2 {
       margin: 0 0 0.35rem;
       font-size: 1rem;
+      font-weight: 400;
       line-height: 1.65;
     }
     ul {
@@ -108,7 +94,7 @@
       outline-offset: 4px;
     }
     @media (max-width: 600px) {
-      main { margin-top: 2.5rem; margin-bottom: 2.5rem; }
+      main { margin: 2rem 1.5rem; }
     }
     @media print {
       :root { color-scheme: light; --paper: #fff; --ink: #000; --link: #000; }
