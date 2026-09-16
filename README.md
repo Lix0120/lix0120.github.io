@@ -11,9 +11,10 @@ The homepage is in `index.html`. Edit the biography and research interests near 
 Update the year of study in both the visible biography and the description metadata when needed.
 
 The email address in the header is a high-resolution transparent image at
-`assets/contact.png`. Keep it as an image rather than adding a plain-text address
+`assets/contact-courier-new.png`. Use a new image filename when changing its font
+so browsers request the new version. Keep it as an image rather than adding a plain-text address
 or a `mailto:` link. Its alternative text spells out “at” and “dot” for screen
-readers. The office appears beside it as ordinary text.
+readers. Email and office occupy two rows on the right side of the header.
 
 ## Deployment
 
